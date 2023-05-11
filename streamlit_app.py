@@ -1,7 +1,7 @@
 # https://github.com/amaljpc/educhat.git
 import streamlit as st
 from gpt4free import you
-st.write(you)
+# st.write(you)
 # simple request with links and details
 def fetch(content):
     response = ""
