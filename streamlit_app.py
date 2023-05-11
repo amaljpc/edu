@@ -35,6 +35,6 @@ user_input = st.text_area(label="prompt",placeholder="Enter your prompt here",la
 if user_input:
     # session_state.user_input = user_input
     bot_response = fetch(user_input)
-    print()
+    print(bot_response)
     st.write("", bot_response)
 
