@@ -6,6 +6,7 @@ def fetch(content):
     response = ""
     try:
         response = you.Completion.create(prompt=content,detailed=True,include_links=True, )
+        st.write(response.text)
     except Exception as e:
         print(e)
     if response:
