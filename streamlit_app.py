@@ -23,7 +23,7 @@ st.set_page_config(page_title="EduChat")
 # Create a sidebar with some information about your chatbot
 with st.sidebar:
     st.title("EduChat")
-    st.write("Educational search only")
+    # st.write("Educational search only")
 
 # App layout
 st.markdown("<h2>Prompt Responsibly!</h2>", unsafe_allow_html=True)
